@@ -1,0 +1,11 @@
+org\example\gestorestudiantesjson\controller\ListaController.class
+org\example\gestorestudiantesjson\repository\EstudianteRepository.class
+com\example\gestorestudiantesjson\Launcher.class
+org\example\gestorestudiantesjson\app\Main.class
+com\example\gestorestudiantesjson\HelloController.class
+com\example\gestorestudiantesjson\HelloApplication.class
+org\example\gestorestudiantesjson\model\Estudiante.class
+org\example\gestorestudiantesjson\dao\JsonEstudianteDao.class
+org\example\gestorestudiantesjson\dao\JsonEstudianteDao$1.class
+org\example\gestorestudiantesjson\app\MainApp.class
+org\example\gestorestudiantesjson\dao\EstudianteDao.class

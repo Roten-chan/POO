@@ -1,0 +1,23 @@
+GESTOR DE ESTUDIANTES JSON - BASE HASTA PASO 4
+
+Requisitos: JDK 21, IntelliJ IDEA, Maven con acceso a dependencias.
+
+1. Descomprime el ZIP.
+2. En IntelliJ, abre la carpeta GestorEstudiantesJSON (contiene pom.xml).
+3. Espera la importacion/descarga de Maven.
+4. Ejecuta org.example.gestorestudiantesjson.app.Main o la tarea Maven javafx:run.
+5. Debe abrirse una ventana que dice "Proyecto base listo".
+
+INCLUIDO (PASOS 1-4)
+- Proyecto Maven JavaFX 21.0.6 y Gson 2.11.0.
+- Paquetes app, model, dao, repository y controller.
+- Carpeta de recursos view.
+- Modelo Estudiante con constructor vacio, constructor completo, getters y setters.
+- Inicio JavaFX minimo para comprobar que la base arranca.
+
+PENDIENTE (DESDE PASO 5)
+- Interfaz DAO, DAO con Gson, Repository, FXML y controlador.
+- Cambiar MainApp para cargar la vista FXML.
+
+NOTA: La ventana inicial es solo una comprobacion; NO es la interfaz del ejercicio.
+El proyecto no usa module-info.java para mantener la actividad basica.
