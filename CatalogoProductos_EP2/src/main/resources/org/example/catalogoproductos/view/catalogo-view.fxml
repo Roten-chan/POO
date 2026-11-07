@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.catalogoproductos.controller.CatalogoController"
+            spacing="10" alignment="CENTER" prefWidth="700" prefHeight="450">
+            <Label text="Catálogo de productos"/>
+
+            <HBox alignment="CENTER" spacing="10">
+                <children>
+                    <TextField fx:id="txtN" text="Nombre" promptText="Nombre"/>
+                    <ComboBox fx:id="cmbTipo"/>
+                    <TextField fx:id="txtPB" text="Precio Base" promptText="Precio Base"/>
+                    <TextField fx:id="txtD" text="Descuento %" promptText="Descuento %"/>
+                </children>
+            </HBox>
+            <HBox alignment="CENTER" spacing="10">
+                <children>
+                    <Button text="Agregar Producto" onAction="#agregarProducto"/>
+                    <Button text="Guardar JSON" onAction="#guardarJson"/>
+                    <Button text="Cargar JSON" onAction="#cargarJson"/>
+                </children>
+            </HBox>
+                <children>
+                    <TableView fx:id="catalogoProductos" VBox.vgrow="ALWAYS">
+                            <columns>
+                                <TableColumn fx:id="colID" text="ID" prefWidth="60"/>
+                                <TableColumn fx:id="colNombre" text="Nombre" prefWidth="180"/>
+                                <TableColumn fx:id="colTipo" text="Tipo" prefWidth="150"/>
+                                <TableColumn fx:id="colPrecioBase" text="Precio base" prefWidth="150"/>
+                                <TableColumn fx:id="colDescuento" text="Descuento (%)" prefWidth="150"/>
+                                <TableColumn fx:id="colPrecioFinal" text="Precio final" prefWidth="150"/>
+                            </columns>
+                    </TableView>
+                </children>
+    <Label fx:id="lblEstado"/>
+</VBox>

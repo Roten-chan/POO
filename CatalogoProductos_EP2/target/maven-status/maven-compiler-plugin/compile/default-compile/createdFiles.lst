@@ -1,0 +1,7 @@
+org\example\catalogoproductos\model\TipoProducto.class
+com\example\catalogoproductos_ep2\HelloApplication.class
+com\example\catalogoproductos_ep2\Launcher.class
+org\example\catalogoproductos\model\Producto.class
+org\example\catalogoproductos\app\MainApp.class
+com\example\catalogoproductos_ep2\HelloController.class
+org\example\catalogoproductos\app\Main.class
