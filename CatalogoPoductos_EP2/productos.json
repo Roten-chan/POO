@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cuaderno",
+    "tipo": "NORMAL",
+    "precioBase": 2000,
+    "descuento": 0
+  },
+  {
+    "id": 2,
+    "nombre": "Mochila",
+    "tipo": "OFERTA",
+    "precioBase": 30000,
+    "descuento": 20
+  },
+  {
+    "id": 3,
+    "nombre": "Cuaderno",
+    "tipo": "NORMAL",
+    "precioBase": 2000,
+    "descuento": 0
+  }
+]

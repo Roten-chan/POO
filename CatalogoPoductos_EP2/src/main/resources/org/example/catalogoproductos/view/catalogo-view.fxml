@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.catalogoproductos.controller.CatalogoController"
+      spacing="10" prefWidth="900" prefHeight="500">
+    <Label text="Catálogo de productos"/>
+    <GridPane hgap="8" vgap="8">
+        <Label text="Nombre:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtNombre" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+        <Label text="Tipo:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+        <ComboBox fx:id="cmbTipo" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+        <Label text="Precio base:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtPrecioBase" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+        <Label text="Descuento %:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+        <TextField fx:id="txtDescuento" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+    </GridPane>
+    <HBox spacing="10">
+        <Button text="Agregar producto" onAction="#agregarProducto"/>
+        <Button text="Guardar JSON" onAction="#guardarJson"/>
+        <Button text="Cargar JSON" onAction="#cargarJson"/>
+    </HBox>
+    <TableView fx:id="tablaProductos" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="colId" text="ID" prefWidth="55"/>
+            <TableColumn fx:id="colNombre" text="Nombre" prefWidth="220"/>
+            <TableColumn fx:id="colTipo" text="Tipo" prefWidth="115"/>
+            <TableColumn fx:id="colPrecioBase" text="Precio base" prefWidth="135"/>
+            <TableColumn fx:id="colDescuento" text="Descuento (%)" prefWidth="145"/>
+            <TableColumn fx:id="colPrecioFinal" text="Precio final" prefWidth="145"/>
+        </columns>
+    </TableView>
+    <Label fx:id="lblEstado" text="Listo para ingresar productos."/>
+</VBox>

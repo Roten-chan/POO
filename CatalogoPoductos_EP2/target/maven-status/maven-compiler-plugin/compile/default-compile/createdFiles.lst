@@ -1,0 +1,12 @@
+org\example\catalogoproductos\controller\CatalogoController.class
+com\example\catalogopoductos_ep2\HelloController.class
+org\example\catalogoproductos\dao\JsonProductoDao.class
+org\example\catalogoproductos\app\Main.class
+org\example\catalogoproductos\model\TipoProducto.class
+com\example\catalogopoductos_ep2\HelloApplication.class
+org\example\catalogoproductos\dao\ProductoDao.class
+org\example\catalogoproductos\model\Producto.class
+com\example\catalogopoductos_ep2\Launcher.class
+org\example\catalogoproductos\app\MainApp.class
+org\example\catalogoproductos\dao\JsonProductoDao$1.class
+org\example\catalogoproductos\repository\ProductoRepository.class
